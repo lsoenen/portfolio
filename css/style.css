@@ -6,6 +6,27 @@ body {
   line-height: 32px;
 }
 
+.skip-main {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  height: 1px;
+  width: 1px;
+  text-align: left;
+  overflow: hidden;
+}
+
+a.skip-main:active,
+a.skip-main:focus,
+a.skip-main:hover {
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
+
 p {
   font-size: 18px;
   padding-left: 50px;
@@ -111,7 +132,14 @@ form label {
   color: black;
 }
 
-
+.parallax {
+  background-image: url("../imgs/downtownsault.png");
+  height: 325px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #capstone-link {
   font-weight: bold;
