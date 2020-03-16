@@ -133,6 +133,7 @@ nav .current {
 
 .gallery img {
   width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
