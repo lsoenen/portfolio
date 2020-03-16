@@ -1,0 +1,163 @@
+body {
+  background: #white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  line-height: 32px;
+}
+
+p {
+  font-size: 18px;
+  padding-left: 50px;
+  padding-top: 16px;
+  padding-right: 50px;
+}
+
+h1 {
+  background-color: #222;
+  margin: 0;
+  padding: 50px;
+  padding-left: 60px;
+  color: white;
+}
+
+span.wave {
+  animation-name: wave-animation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+
+  0% { transform: rotate(  0.0deg) }
+  10% { transform: rotate(-10.0deg) }
+  20% { transform: rotate( 12.0deg) }
+  30% { transform: rotate(-10.0deg) }
+  40% { transform: rotate(  9.0deg) }
+  50% { transform: rotate(  0.0deg) }
+ 100% { transform: rotate(  0.0deg) }
+
+}
+
+h2 {
+  padding-left: 50px;
+  padding-top: 32px;
+}
+
+h3 {
+  padding-left: 50px;
+  padding-top: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+}
+
+header {
+  background: #55d6aa;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 50px;
+}
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #001540;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color:yellow;
+  opacity: 25%;
+}
+
+nav a:focus {
+  font-weight: bold;
+  border: 10px;
+  border-color: black;
+}
+
+nav .current {
+  background-color: yellow;
+  opacity: 90%;
+  font-weight: bold;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+#capstone-link {
+  font-weight: bold;
+}
+
+img {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+footer {
+  margin-top: 72px;
+  width: 100%;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+form {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+
+footer p {
+  padding-left: 30px;
+  display: inline-block;
+}
+
+
+@media (prefers-reduced-motion:reduce) {
+  span.wave {
+    animation: none;
+  }
+}
+
+/* @media screen and (min-width: 850px) {
+
+img {
+  width: 30%;
+} */
+
+/* .gallery {
+  display: flex;
+  flex-wrap: wrap;
+} */
