@@ -108,24 +108,54 @@ nav .current {
   font-size: 24px;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px;
-}
-
-img {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 15px;
-}
+/* ---------courses--------------- */
 
 .grid-container {
   display: grid;
   grid-template-columns: auto;
 }
 
+/* ---------project-img--------------- */
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+
+/* ---------gallery--------------- */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.gallery img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+
+
+/* ---------sketches--------------- */
+
+.sketches {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.sketches img {
+  width: 85%;
+  padding: 15px;
+}
+
+
+/* ---------footer--------------- */
 
 footer {
   margin-top: 72px;
@@ -157,7 +187,25 @@ footer p {
 
 @media screen and (min-width: 550px) {
 
-img {
+/* ---------courses------------- */
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+/* ---------project-img--------------- */
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+/* ---------gallery--------------- */
+
+.gallery img {
   width: 50%;
 } */
 
@@ -167,23 +215,51 @@ img {
   padding: 25px;
 }
 
-img {
+.gallery img {
   width: 45%;
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto;
+
+
+/* ---------sketches--------------- */
+
+.sketches {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 50px;
 }
 
+.sketches img {
+  width: 45%;
+  padding: 15px;
+}
 
 
 @media screen and (min-width: 850px) {
 
-img {
+
+/* ---------courses------------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/* ---------project-img--------------- */
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+/* ---------gallery------------- */
+
+.gallery img {
   width: 25%;
 } */
 
@@ -193,14 +269,25 @@ img {
   padding: 50px;
 }
 
-img {
+.gallery img {
   width: 25%;
   display: flex;
   flex-wrap: wrap;
   padding: 15px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
+
+
+/* --------sketches----------- */
+
+.sketches {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.sketches img {
+  width: 30%;
+  padding: 15px;
 }
