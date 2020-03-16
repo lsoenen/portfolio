@@ -153,6 +153,7 @@ nav .current {
 .sketches img {
   width: 85%;
   padding: 15px;
+  height: auto;
 }
 
 
