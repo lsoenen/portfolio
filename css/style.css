@@ -70,6 +70,8 @@ h2 {
 h3 {
   padding-left: 50px;
   padding-top: 24px;
+
+
 }
 
 h4 {
@@ -108,6 +110,11 @@ nav a {
   text-decoration: none;
   color: #001540;
   text-transform: uppercase;
+
+  color: #2c2c2c;
+  letter-spacing: .05em;
+  text-shadow:
+    2px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 nav a:hover {
@@ -175,6 +182,10 @@ form label {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
+}
+
+.gallery img:hover{
+  opacity: .4;
 }
 
 
